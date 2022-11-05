@@ -22,5 +22,7 @@ Již při hledání zdrojů jsem si vybral rok 2020 pro který by již mohla bý
 Katalog obsahuje spotřebu paliv a el. energie dle odvětví. U každého typu paliva jsou uvedené jednotky objemu (tuny, litry) a GJ jako jednotka energie.
 
 Některá odvětví mohou používat fosilní zdroje jinak než paliva, např. na výrobu léků. Očištění o tato odvětví jsem neprovedl, protože
+[využití plynu v průmyslu][vyuziti-plynu-v-prumyslu]
 
 [clanek-o-energetice]: https://oenergetice.cz/zahranicni/iea-fosilni-paliva-mela-2017-podil-813-celosvetove-produkci-energie
+[vyuziti-plynu-v-prumyslu (PDF)]: https://www.wingas.cz/fileadmin/Wingas/content/06_Presse_Mediathek/Broschueren/Studies/210924_Wingas_Factsheet_Industrie_EN.pdf
