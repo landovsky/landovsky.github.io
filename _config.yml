@@ -26,11 +26,14 @@ url: "https://landovsky.github.io" # the base hostname & protocol for your site,
 twitter_username: tomaslandovsky
 github_username:  landovsky
 destination: docs/
+google_analytics: G-Y3M0T3X808
+
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
