@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2022-11-07T20:06:22+01:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I'm interested in.</subtitle><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2022-11-07T20:11:37+01:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I'm interested in.</subtitle><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
 
 &lt;p&gt;Chtěl jsem si udělat řádovou představu o energetických požadavcích České Republiky. Mluví se o stavbě dalšího bloku Temelínu, o nahrazování špinavých zdrojů těmi obnovitelnými nebo nízkoemisními. Energii spotřebováváme ale i jinak než ve formě elektřiny. Kdybychom měli nahradit opravdu veškeré fosilní zdroje, o jaké množství energie by se jednalo?&lt;/p&gt;
 
@@ -37,25 +37,85 @@ Již při hledání zdrojů jsem si vybral rok 2020 pro který by již mohla bý
   &lt;li&gt;21,7 miliónů domácích solárních elektráren (10KWp)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Celková spotřeba fos. paliv v ČR 2020&lt;/strong&gt;
-| &lt;strong&gt;Zdroj energie&lt;/strong&gt; |     &lt;strong&gt;PJ&lt;/strong&gt; |    &lt;strong&gt;TWh&lt;/strong&gt; |
-|——————-|———–:|———–:|
-| hnědé uhlí        |     352.45 |      97.90 |
-| zemní plyn        |     177.58 |      49.33 |
-| černé uhlí        |     120.11 |      33.36 |
-| nafta             |      68.21 |      18.95 |
-| koks              |      57.72 |      16.03 |
-| benzín            |       4.21 |       1.17 |
-| brykety           |       0.01 |       0.00 |
-| &lt;strong&gt;Celkem&lt;/strong&gt;        | &lt;strong&gt;780.30&lt;/strong&gt; | &lt;strong&gt;216.75&lt;/strong&gt; |&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Celková spotřeba fos. paliv v ČR 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Zdroj energie&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;PJ&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;TWh&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;hnědé uhlí&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;352.45&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;97.90&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zemní plyn&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;177.58&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;49.33&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;černé uhlí&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;120.11&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;33.36&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nafta&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;68.21&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.95&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;koks&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;57.72&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;16.03&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;benzín&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4.21&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1.17&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;brykety&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0.01&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Celkem&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;strong&gt;780.30&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;strong&gt;216.75&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;&lt;strong&gt;Srovnání s výrobou elektřiny&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Na výrobu el. energie bylo použito 38% fos. paliv. 62% (kromě PHM) bylo využito pro výrobu tepla v domácnostech, firmách a průmyslu.
-| &lt;strong&gt;Zdroj energie&lt;/strong&gt;      | &lt;strong&gt;PJ&lt;/strong&gt; | &lt;strong&gt;TWh&lt;/strong&gt; |
-|————————|——–|——–:|
-| el. z fosilních zdrojů | -      |      41 |
-| el. z ostatních zdrojů | -      |      41 |&lt;/p&gt;
+&lt;p&gt;Na výrobu el. energie bylo použito 38% fos. paliv. 62% (kromě PHM) bylo využito pro výrobu tepla v domácnostech, firmách a průmyslu.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Zdroj energie&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;PJ&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;TWh&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;el. z fosilních zdrojů&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;41&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;el. z ostatních zdrojů&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;41&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1vdNPmwila56Nor2sWxiaqkr0rjtOQumdgzrRP5-TZ4k&quot; target=&quot;_blank&quot;&gt;Zdrojová data (Google Sheet)&lt;/a&gt;&lt;/p&gt;
 

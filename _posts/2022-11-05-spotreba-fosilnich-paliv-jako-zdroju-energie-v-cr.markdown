@@ -40,6 +40,7 @@ Z fosilních paliv v ČR spotřebujeme 780 PJ, nebo-li 216 TWh energie.
 - 21,7 miliónů domácích solárních elektráren (10KWp)
 
 **Celková spotřeba fos. paliv v ČR 2020**
+
 | **Zdroj energie** |     **PJ** |    **TWh** |
 |-------------------|-----------:|-----------:|
 | hnědé uhlí        |     352.45 |      97.90 |
@@ -54,6 +55,7 @@ Z fosilních paliv v ČR spotřebujeme 780 PJ, nebo-li 216 TWh energie.
 **Srovnání s výrobou elektřiny**
 
 Na výrobu el. energie bylo použito 38% fos. paliv. 62% (kromě PHM) bylo využito pro výrobu tepla v domácnostech, firmách a průmyslu.
+
 | **Zdroj energie**      | **PJ** | **TWh** |
 |------------------------|--------|--------:|
 | el. z fosilních zdrojů | -      |      41 |
