@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2022-11-06T21:58:28+01:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I'm interested in.</subtitle><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2022-11-07T20:06:22+01:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I'm interested in.</subtitle><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
 
 &lt;p&gt;Chtěl jsem si udělat řádovou představu o energetických požadavcích České Republiky. Mluví se o stavbě dalšího bloku Temelínu, o nahrazování špinavých zdrojů těmi obnovitelnými nebo nízkoemisními. Energii spotřebováváme ale i jinak než ve formě elektřiny. Kdybychom měli nahradit opravdu veškeré fosilní zdroje, o jaké množství energie by se jednalo?&lt;/p&gt;
 
@@ -28,7 +28,7 @@ Již při hledání zdrojů jsem si vybral rok 2020 pro který by již mohla bý
 
 &lt;p&gt;Elektrickou energii jsem do energetické náročnosti nedával, protože suroviny pro její výrobu jsou v tabulce již započteny a energii z nízkoemisních zdrojů nezapočítáváme, ta už se nízkoemisně vyrábí.&lt;/p&gt;
 
-&lt;h3 id=&quot;závěr&quot;&gt;Závěr&lt;/h3&gt;
+&lt;h3 id=&quot;výsledky&quot;&gt;Výsledky&lt;/h3&gt;
 &lt;p&gt;Z fosilních paliv v ČR spotřebujeme 780 PJ, nebo-li 216 TWh energie.
 Číslo je ohromující. Pro představu, je to ekvivalent:&lt;/p&gt;
 &lt;ul&gt;
@@ -37,7 +37,27 @@ Již při hledání zdrojů jsem si vybral rok 2020 pro který by již mohla bý
   &lt;li&gt;21,7 miliónů domácích solárních elektráren (10KWp)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/spotreba-fosilnich-paliv-v-cr-2020.png&quot; alt=&quot;Spotřeba foslních paliv v ČR 2020&quot; /&gt;
-&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1vdNPmwila56Nor2sWxiaqkr0rjtOQumdgzrRP5-TZ4k&quot; target=&quot;_blank&quot;&gt;tabulka (Google Sheet)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Celková spotřeba fos. paliv v ČR 2020&lt;/strong&gt;
+| &lt;strong&gt;Zdroj energie&lt;/strong&gt; |     &lt;strong&gt;PJ&lt;/strong&gt; |    &lt;strong&gt;TWh&lt;/strong&gt; |
+|——————-|———–:|———–:|
+| hnědé uhlí        |     352.45 |      97.90 |
+| zemní plyn        |     177.58 |      49.33 |
+| černé uhlí        |     120.11 |      33.36 |
+| nafta             |      68.21 |      18.95 |
+| koks              |      57.72 |      16.03 |
+| benzín            |       4.21 |       1.17 |
+| brykety           |       0.01 |       0.00 |
+| &lt;strong&gt;Celkem&lt;/strong&gt;        | &lt;strong&gt;780.30&lt;/strong&gt; | &lt;strong&gt;216.75&lt;/strong&gt; |&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Srovnání s výrobou elektřiny&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Na výrobu el. energie bylo použito 38% fos. paliv. 62% (kromě PHM) bylo využito pro výrobu tepla v domácnostech, firmách a průmyslu.
+| &lt;strong&gt;Zdroj energie&lt;/strong&gt;      | &lt;strong&gt;PJ&lt;/strong&gt; | &lt;strong&gt;TWh&lt;/strong&gt; |
+|————————|——–|——–:|
+| el. z fosilních zdrojů | -      |      41 |
+| el. z ostatních zdrojů | -      |      41 |&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1vdNPmwila56Nor2sWxiaqkr0rjtOQumdgzrRP5-TZ4k&quot; target=&quot;_blank&quot;&gt;Zdrojová data (Google Sheet)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;závěr&quot;&gt;Závěr&lt;/h3&gt;
 &lt;p&gt;Vzhledem k “rychlosti” elektrifikace si lze těžko představit, že během krátké doby (řekněme 10, nebo 20 let) bude naše spotřeba energií bezemisní. To je určitě složitější téma, protože v něm hraje roli spousta faktorů - snižování energetické náročnosti budov, zlepšování efektivity vytápění, snižování spotřeby vlivem oteplování, atd. To je k zamyšlení na někdy jindy.&lt;/p&gt;</content><author><name></name></author><category term="cz" /><summary type="html">Jaká je spotřeba energií v ČR?</summary></entry></feed>

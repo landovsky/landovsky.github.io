@@ -32,18 +32,37 @@ U všech surovin byly uveden ekvivalent v GJ (giga joulech). Protože jsem chtě
 
 Elektrickou energii jsem do energetické náročnosti nedával, protože suroviny pro její výrobu jsou v tabulce již započteny a energii z nízkoemisních zdrojů nezapočítáváme, ta už se nízkoemisně vyrábí.
 
-### Závěr
+### Výsledky
 Z fosilních paliv v ČR spotřebujeme 780 PJ, nebo-li 216 TWh energie.
 Číslo je ohromující. Pro představu, je to ekvivalent:
 - 14 Temelínů
 - 7x všech jaderných zdrojů v ČR
 - 21,7 miliónů domácích solárních elektráren (10KWp)
 
-![Spotřeba foslních paliv v ČR 2020](/assets/images/spotreba-fosilnich-paliv-v-cr-2020.png)
-[tabulka (Google Sheet)][tabulka-gsheet]{:target="_blank"}
+**Celková spotřeba fos. paliv v ČR 2020**
+| **Zdroj energie** |     **PJ** |    **TWh** |
+|-------------------|-----------:|-----------:|
+| hnědé uhlí        |     352.45 |      97.90 |
+| zemní plyn        |     177.58 |      49.33 |
+| černé uhlí        |     120.11 |      33.36 |
+| nafta             |      68.21 |      18.95 |
+| koks              |      57.72 |      16.03 |
+| benzín            |       4.21 |       1.17 |
+| brykety           |       0.01 |       0.00 |
+| **Celkem**        | **780.30** | **216.75** |
 
+**Srovnání s výrobou elektřiny**
+
+Na výrobu el. energie bylo použito 38% fos. paliv. 62% (kromě PHM) bylo využito pro výrobu tepla v domácnostech, firmách a průmyslu.
+| **Zdroj energie**      | **PJ** | **TWh** |
+|------------------------|--------|--------:|
+| el. z fosilních zdrojů | -      |      41 |
+| el. z ostatních zdrojů | -      |      41 |
+
+[Zdrojová data (Google Sheet)][tabulka-gsheet]{:target="_blank"}
+
+### Závěr
 Vzhledem k "rychlosti" elektrifikace si lze těžko představit, že během krátké doby (řekněme 10, nebo 20 let) bude naše spotřeba energií bezemisní. To je určitě složitější téma, protože v něm hraje roli spousta faktorů - snižování energetické náročnosti budov, zlepšování efektivity vytápění, snižování spotřeby vlivem oteplování, atd. To je k zamyšlení na někdy jindy.
-
 
 
 [clanek-o-energetice]: https://oenergetice.cz/zahranicni/iea-fosilni-paliva-mela-2017-podil-813-celosvetove-produkci-energie
