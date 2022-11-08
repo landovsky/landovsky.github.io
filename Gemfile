@@ -1,4 +1,6 @@
 source "https://rubygems.org"
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -9,7 +11,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.3.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", :github => 'jekyll/minima', :ref => '8fbcefa'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
@@ -17,6 +18,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
+gem "minima", :github => 'jekyll/minima', :ref => '41b9769'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
