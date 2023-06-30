@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2023-06-30T09:36:22+02:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I&apos;m interested in.</subtitle><entry><title type="html">Generating web with AI - state of the art?</title><link href="https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art.html" rel="alternate" type="text/html" title="Generating web with AI - state of the art?" /><published>2023-06-29T22:15:34+02:00</published><updated>2023-06-29T22:15:34+02:00</updated><id>https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art</id><content type="html" xml:base="https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art.html">&lt;h1 id=&quot;generating-web-with-ai&quot;&gt;Generating web with AI&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2023-06-30T09:40:24+02:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I&apos;m interested in.</subtitle><entry><title type="html">Generating web with AI - state of the art?</title><link href="https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art.html" rel="alternate" type="text/html" title="Generating web with AI - state of the art?" /><published>2023-06-29T22:15:34+02:00</published><updated>2023-06-29T22:15:34+02:00</updated><id>https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art</id><content type="html" xml:base="https://landovsky.github.io/en/2023/06/29/generating-web-with-ai-state-of-the-art.html">&lt;h1 id=&quot;generating-web-with-ai&quot;&gt;Generating web with AI&lt;/h1&gt;
 
 &lt;h1 id=&quot;objectives&quot;&gt;Objectives&lt;/h1&gt;
 
@@ -42,7 +42,7 @@
   &lt;li&gt;The output is more of a wireframe, purposed for a phone resolution.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/snappy.appypie.com_result.png&quot; alt=&quot;snappy.appypie.com result.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/snappy.appypie.com_result.png&quot; alt=&quot;snappy.appypie.com result.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;uizardio-&quot;&gt;&lt;a href=&quot;http://uizard.io/&quot;&gt;Uizard.io&lt;/a&gt; 👍&lt;/h2&gt;
 
@@ -53,13 +53,13 @@
   &lt;li&gt;Cons: most of UX is hallucinations, none of it is actually usable as a finished product; components are recycled (across completely different prompts), does not adhere to constraints (i.e. design 2 pages). Can only be exported as PDF, PNG, and JPEG.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png&quot; alt=&quot;uizard-pharmacy-Landing-f4c78.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png&quot; alt=&quot;uizard-pharmacy-Landing-f4c78.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png&quot; alt=&quot;uizard-pharmacy-SearchResults-ba8de.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png&quot; alt=&quot;uizard-pharmacy-SearchResults-ba8de.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;⬇️ Result for prompt asking for completely something different, spot 10 similarities..&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/Landing-79686.png&quot; alt=&quot;Landing-79686.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/Landing-79686.png&quot; alt=&quot;Landing-79686.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;durableco&quot;&gt;&lt;a href=&quot;http://durable.co/&quot;&gt;Durable.co&lt;/a&gt;&lt;/h2&gt;
 
@@ -70,7 +70,7 @@
   &lt;li&gt;Produces average quality visuals, but structure seems the same - hero, image, service cards, testimonial, gallery, contact info and form.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/app.durable.co_result.png&quot; alt=&quot;app.durable.co result.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/app.durable.co_result.png&quot; alt=&quot;app.durable.co result.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;wixcom&quot;&gt;&lt;a href=&quot;http://wix.com/&quot;&gt;Wix.com&lt;/a&gt;&lt;/h2&gt;
 
@@ -95,7 +95,7 @@
   &lt;li&gt;Output &amp;gt; &lt;a href=&quot;https://10web-site.ai/52/working-troll/&quot;&gt;https://10web-site.ai/52/working-troll/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/10web.io_result.png&quot; alt=&quot;10web.io result.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/10web.io_result.png&quot; alt=&quot;10web.io result.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;sketch2code-microsoft&quot;&gt;Sketch2Code (Microsoft)&lt;/h2&gt;
 
@@ -117,9 +117,9 @@
 
 &lt;p&gt;The result is closer to what I need, but it obviously needs more work to be useful.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/gpt-search.png&quot; alt=&quot;gpt-search.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/gpt-search.png&quot; alt=&quot;gpt-search.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/gpt-detail.png&quot; alt=&quot;gpt-detail.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/gpt-detail.png&quot; alt=&quot;gpt-detail.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;figma-plugin&quot;&gt;Figma plugin&lt;/h1&gt;
 
@@ -129,11 +129,11 @@
 
 &lt;p&gt;Input:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.41.47.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.41.47.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Output:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.44.47.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.44.47.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;appendix&quot;&gt;Appendix&lt;/h1&gt;
 
