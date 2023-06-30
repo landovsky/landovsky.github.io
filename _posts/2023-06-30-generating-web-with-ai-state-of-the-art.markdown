@@ -43,7 +43,7 @@ From 4 random articles titled "10 best tools for AI design" I've picked solution
 - Generates a site based on prompt (without word limit).
 - The output is more of a wireframe, purposed for a phone resolution.
 
-![snappy.appypie.com result.png](assets/images/generating-web-with-ai/snappy.appypie.com_result.png)
+![snappy.appypie.com result.png](/assets/images/generating-web-with-ai/snappy.appypie.com_result.png)
 
 ## [Uizard.io](http://uizard.io/) 👍
 
@@ -52,13 +52,13 @@ From 4 random articles titled "10 best tools for AI design" I've picked solution
 - Pros: generates several screens with components, creates a prototype with pages linked together. Users generative model to create images. The result is editable (Figma-like).
 - Cons: most of UX is hallucinations, none of it is actually usable as a finished product; components are recycled (across completely different prompts), does not adhere to constraints (i.e. design 2 pages). Can only be exported as PDF, PNG, and JPEG.
 
-![uizard-pharmacy-Landing-f4c78.png](assets/images/generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png)
+![uizard-pharmacy-Landing-f4c78.png](/assets/images/generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png)
 
-![uizard-pharmacy-SearchResults-ba8de.png](assets/images/generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png)
+![uizard-pharmacy-SearchResults-ba8de.png](/assets/images/generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png)
 
 ⬇️ Result for prompt asking for completely something different, spot 10 similarities..
 
-![Landing-79686.png](assets/images/generating-web-with-ai/Landing-79686.png)
+![Landing-79686.png](/assets/images/generating-web-with-ai/Landing-79686.png)
 
 ## [Durable.co](http://durable.co/)
 
@@ -67,7 +67,7 @@ From 4 random articles titled "10 best tools for AI design" I've picked solution
 - No prompt customization.
 - Produces average quality visuals, but structure seems the same - hero, image, service cards, testimonial, gallery, contact info and form.
 
-![app.durable.co result.png](assets/images/generating-web-with-ai/app.durable.co_result.png)
+![app.durable.co result.png](/assets/images/generating-web-with-ai/app.durable.co_result.png)
 
 ## [Wix.com](http://wix.com/)
 
@@ -86,7 +86,7 @@ From 4 random articles titled "10 best tools for AI design" I've picked solution
 - Seems more like the layout and structure is preconceived (home, service, about and contact pages) and AI only generates texts and images.
 - Output > [https://10web-site.ai/52/working-troll/](https://10web-site.ai/52/working-troll/)
 
-![10web.io result.png](assets/images/generating-web-with-ai/10web.io_result.png)
+![10web.io result.png](/assets/images/generating-web-with-ai/10web.io_result.png)
 
 ## Sketch2Code (Microsoft)
 
@@ -104,9 +104,9 @@ Approach
 
 The result is closer to what I need, but it obviously needs more work to be useful.
 
-![gpt-search.png](assets/images/generating-web-with-ai/gpt-search.png)
+![gpt-search.png](/assets/images/generating-web-with-ai/gpt-search.png)
 
-![gpt-detail.png](assets/images/generating-web-with-ai/gpt-detail.png)
+![gpt-detail.png](/assets/images/generating-web-with-ai/gpt-detail.png)
 
 # Figma plugin
 
@@ -116,11 +116,11 @@ Using figma to code plugins, one can achieve interesting results. The downside i
 
 Input:
 
-![Screenshot 2023-06-30 at 8.41.47.png](assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png)
+![Screenshot 2023-06-30 at 8.41.47.png](/assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png)
 
 Output:
 
-![Screenshot 2023-06-30 at 8.44.47.png](assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png)
+![Screenshot 2023-06-30 at 8.44.47.png](/assets/images/generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png)
 
 # Appendix
 
