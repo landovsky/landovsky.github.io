@@ -1,4 +1,179 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2022-11-08T15:37:03+01:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I'm interested in.</subtitle><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://landovsky.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://landovsky.github.io/" rel="alternate" type="text/html" /><updated>2023-06-30T09:31:16+02:00</updated><id>https://landovsky.github.io/feed.xml</id><title type="html">Tom’s blog</title><subtitle>My personal blog to write about things I&apos;m interested in.</subtitle><entry><title type="html">Generating web with AI - state of the art?</title><link href="https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html" rel="alternate" type="text/html" title="Generating web with AI - state of the art?" /><published>2023-06-29T22:15:34+02:00</published><updated>2023-06-29T22:15:34+02:00</updated><id>https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art</id><content type="html" xml:base="https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html">&lt;h1 id=&quot;generating-web-with-ai&quot;&gt;Generating web with AI&lt;/h1&gt;
+
+&lt;h1 id=&quot;objectives&quot;&gt;Objectives&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;I would like to speed-up UI prototyping so that I can go from a prompt to code real fast.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Specifically I wanted to design a webpage given this specification:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt; &lt;em&gt;(full brief in the appendix)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Search engine simplifying the process of finding pharmacies with specific medicines. Page 1: Search by medicine name and view results with in-stock indicators. Sort results by distance. Page 2: Medicine detail showing which pharmacies have it in stock, with info about each pharmacy (address, opening hours.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I’ve briefly explored several approaches&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;specialized tools&lt;/li&gt;
+  &lt;li&gt;ChatGPT&lt;/li&gt;
+  &lt;li&gt;Figma plugins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;specialized-tools&quot;&gt;Specialized tools&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;From 4 random articles titled “10 best tools for AI design” I’ve picked solutions matching my problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Verdict&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;overall failure in helping my use-case&lt;/li&gt;
+  &lt;li&gt;most tools have preconceived idea of web structure&lt;/li&gt;
+  &lt;li&gt;tools are probably designed for people who could not otherwise build a web and so their needs don’t match mine (missing exports, etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;snappyappypiecom&quot;&gt;&lt;a href=&quot;http://snappy.appypie.com/&quot;&gt;Snappy.appypie.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Platform purpose: “Create powerful web and mobile applications and automate workflows easily and quickly without any coding.”&lt;/li&gt;
+  &lt;li&gt;Generates a site based on prompt (without word limit).&lt;/li&gt;
+  &lt;li&gt;The output is more of a wireframe, purposed for a phone resolution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/snappy.appypie.com_result.png&quot; alt=&quot;snappy.appypie.com result.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;uizardio-&quot;&gt;&lt;a href=&quot;http://uizard.io/&quot;&gt;Uizard.io&lt;/a&gt; 👍&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First real generator (28 USD per month).&lt;/li&gt;
+  &lt;li&gt;Takes a 300-character description prompt and 150-character design requirements.&lt;/li&gt;
+  &lt;li&gt;Pros: generates several screens with components, creates a prototype with pages linked together. Users generative model to create images. The result is editable (Figma-like).&lt;/li&gt;
+  &lt;li&gt;Cons: most of UX is hallucinations, none of it is actually usable as a finished product; components are recycled (across completely different prompts), does not adhere to constraints (i.e. design 2 pages). Can only be exported as PDF, PNG, and JPEG.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png&quot; alt=&quot;uizard-pharmacy-Landing-f4c78.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png&quot; alt=&quot;uizard-pharmacy-SearchResults-ba8de.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;⬇️ Result for prompt asking for completely something different, spot 10 similarities..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/Landing-79686.png&quot; alt=&quot;Landing-79686.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;durableco&quot;&gt;&lt;a href=&quot;http://durable.co/&quot;&gt;Durable.co&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI website builder with tons of other services (marketing, CRM, invoicing) placing it outside my use-case&lt;/li&gt;
+  &lt;li&gt;Generates a site based on industry and name (can suggest one) - can be hacked by sending description prompt in the industry field.&lt;/li&gt;
+  &lt;li&gt;No prompt customization.&lt;/li&gt;
+  &lt;li&gt;Produces average quality visuals, but structure seems the same - hero, image, service cards, testimonial, gallery, contact info and form.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/app.durable.co_result.png&quot; alt=&quot;app.durable.co result.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;wixcom&quot;&gt;&lt;a href=&quot;http://wix.com/&quot;&gt;Wix.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Claims “AI technology that creates a site for you.”&lt;/li&gt;
+  &lt;li&gt;Could not find AI designer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;debuildapp&quot;&gt;Debuild.app&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Joined waiting list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;10webio&quot;&gt;&lt;a href=&quot;http://10web.io/&quot;&gt;10Web.io&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI web design.&lt;/li&gt;
+  &lt;li&gt;Input: describe business and 3 key services.&lt;/li&gt;
+  &lt;li&gt;Generates OK design (responsive), but does not adhere to the prompt (no search input, etc.).&lt;/li&gt;
+  &lt;li&gt;Seems more like the layout and structure is preconceived (home, service, about and contact pages) and AI only generates texts and images.&lt;/li&gt;
+  &lt;li&gt;Output &amp;gt; &lt;a href=&quot;https://10web-site.ai/52/working-troll/&quot;&gt;https://10web-site.ai/52/working-troll/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/10web.io_result.png&quot; alt=&quot;10web.io result.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sketch2code-microsoft&quot;&gt;Sketch2Code (Microsoft)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Site not available &lt;a href=&quot;https://sketch2code.azurewebsites.net/&quot;&gt;https://sketch2code.azurewebsites.net/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall, none of these tools can help me achieve my goal of designing a simple site based on my prompt.&lt;/p&gt;
+
+&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Approach&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;get GPT to generate code using Bootstrap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The result is closer to what I need, but it obviously needs more work to be useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/gpt-search.png&quot; alt=&quot;gpt-search.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/gpt-detail.png&quot; alt=&quot;gpt-detail.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;figma-plugin&quot;&gt;Figma plugin&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Using figma to code plugins, one can achieve interesting results. The downside is that you need the Figma design…&lt;/p&gt;
+
+&lt;p&gt;Input:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.41.47.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Output:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png&quot; alt=&quot;Screenshot 2023-06-30 at 8.44.47.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;appendix&quot;&gt;Appendix&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;full-spec&quot;&gt;Full spec&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The MediSearch platform serves as a user-friendly medicine search engine that simplifies the process of finding pharmacies with specific medicines in stock. The website is theme is predominantly violet and features exquisite use of color gradients.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Homepage(Search and Result List):&lt;/strong&gt; On the homepage, we offer users the ability to search for medicines based on their names. Typing in the search bar, results begin to appear in a list where each row distinctively displays a combination of the medicine name and form (e.g., Coldrex Sacks, Coldrex Tablets 50mg). A keen eye would notice an in-stock indicator icon next to each medicine to swiftly inform of its availability status. Results can be further honed based on users’ convenience as they have the option to sort these results by distance from their pre-estimated location.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Medicine Detail Page:&lt;/strong&gt; Post choosing a medicine from the list, users are redirected to a medicine detail page containing an array of pharmacy cards. Each card leaves no stone unturned in providing all necessary information about a pharmacy – its name, address, phone number, and operation hours. Further, a compactly fitting map ensures users do not have to scour the internet for directions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Email Subscription Page:&lt;/strong&gt; In unfortunate circumstances where a user’s required medicine is out of stock in all pharmacies, we offer a silver lining - an option to subscribe for email notifications about the medicine’s availability status.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gpt-prompt&quot;&gt;GPT prompt&lt;/h2&gt;
+
+&lt;p&gt;You are a web developer with design capabilities. You will take a description (see below), enhance it by inserting details written in between the lines and based on the enhanced description build the html code split to individual pages.&lt;/p&gt;
+
+&lt;p&gt;Website description:&lt;/p&gt;
+
+&lt;p&gt;Design requirements:&lt;/p&gt;
+
+&lt;p&gt;Here are a few rules to observe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;output complete HTML using Slim lang syntax&lt;/li&gt;
+  &lt;li&gt;use Bootstrap as the CSS framework, its components and utility classes&lt;/li&gt;
+  &lt;li&gt;make sure you properly place elements (by adding padding / margin as necessary)&lt;/li&gt;
+  &lt;li&gt;when relevant use icons (for example state indicators, input field icons (email, phone, location, etc.)&lt;/li&gt;
+  &lt;li&gt;use (but don’t overuse) primary color for main actions and secondary color for other actions&lt;/li&gt;
+  &lt;li&gt;when designing sub-pages, include bread crumbs&lt;/li&gt;
+  &lt;li&gt;include aria roles and attributes for accessibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;uizardio-prompt&quot;&gt;&lt;a href=&quot;http://uizard.io&quot;&gt;uizard.io&lt;/a&gt; prompt&lt;/h2&gt;
+
+&lt;p&gt;Search engine simplifying the process of finding pharmacies with specific medicines. Page 1: Search by medicine name and view results with in-stock indicators. Sort results by distance. Page 2: Medicine detail showing which pharmacies have it in stock, with info about each pharmacy (address, opening hours.)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;There was another one I was trying but was lost in time..&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="cs" /><summary type="html">Generating web with AI</summary></entry><entry><title type="html">Spotřeba fosilních paliv jako zdrojů energie v ČR</title><link href="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html" rel="alternate" type="text/html" title="Spotřeba fosilních paliv jako zdrojů energie v ČR" /><published>2022-11-05T21:15:34+01:00</published><updated>2022-11-05T21:15:34+01:00</updated><id>https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr</id><content type="html" xml:base="https://landovsky.github.io/cz/2022/11/05/spotreba-fosilnich-paliv-jako-zdroju-energie-v-cr.html">&lt;h3 id=&quot;jaká-je-spotřeba-energií-v-čr&quot;&gt;Jaká je spotřeba energií v ČR?&lt;/h3&gt;
 
 &lt;p&gt;Chtěl jsem si udělat řádovou představu o energetických požadavcích České Republiky. Mluví se o stavbě dalšího bloku Temelínu, o nahrazování špinavých zdrojů těmi obnovitelnými nebo nízkoemisními. Energii spotřebováváme ale i jinak než ve formě elektřiny. Kdybychom měli nahradit opravdu veškeré fosilní zdroje, o jaké množství energie by se jednalo?&lt;/p&gt;
 

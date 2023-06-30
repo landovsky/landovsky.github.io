@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Generating web with AI - state of the art? | Tom’s blog</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Generating web with AI - state of the art?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Generating web with AI" />
+<meta property="og:description" content="Generating web with AI" />
+<link rel="canonical" href="https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html" />
+<meta property="og:url" content="https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html" />
+<meta property="og:site_name" content="Tom’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-29T22:15:34+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Generating web with AI - state of the art?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-29T22:15:34+02:00","datePublished":"2023-06-29T22:15:34+02:00","description":"Generating web with AI","headline":"Generating web with AI - state of the art?","mainEntityOfPage":{"@type":"WebPage","@id":"https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html"},"url":"https://landovsky.github.io/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://landovsky.github.io/feed.xml" title="Tom&apos;s blog" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Tom&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Generating web with AI - state of the art?</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-06-29T22:15:34+02:00" itemprop="datePublished">
+        Jun 29, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="generating-web-with-ai">Generating web with AI</h1>
+
+<h1 id="objectives">Objectives</h1>
+
+<hr />
+
+<p><strong>I would like to speed-up UI prototyping so that I can go from a prompt to code real fast.</strong></p>
+
+<p>Specifically I wanted to design a webpage given this specification:</p>
+
+<p><strong>TLDR</strong> <em>(full brief in the appendix)</em></p>
+
+<p>Search engine simplifying the process of finding pharmacies with specific medicines. Page 1: Search by medicine name and view results with in-stock indicators. Sort results by distance. Page 2: Medicine detail showing which pharmacies have it in stock, with info about each pharmacy (address, opening hours.)</p>
+
+<p><strong>I’ve briefly explored several approaches</strong></p>
+
+<ul>
+  <li>specialized tools</li>
+  <li>ChatGPT</li>
+  <li>Figma plugins</li>
+</ul>
+
+<h1 id="specialized-tools">Specialized tools</h1>
+
+<hr />
+
+<p>From 4 random articles titled “10 best tools for AI design” I’ve picked solutions matching my problem.</p>
+
+<p><strong>Verdict</strong></p>
+
+<ul>
+  <li>overall failure in helping my use-case</li>
+  <li>most tools have preconceived idea of web structure</li>
+  <li>tools are probably designed for people who could not otherwise build a web and so their needs don’t match mine (missing exports, etc)</li>
+</ul>
+
+<h2 id="snappyappypiecom"><a href="http://snappy.appypie.com/">Snappy.appypie.com</a></h2>
+
+<ul>
+  <li>Platform purpose: “Create powerful web and mobile applications and automate workflows easily and quickly without any coding.”</li>
+  <li>Generates a site based on prompt (without word limit).</li>
+  <li>The output is more of a wireframe, purposed for a phone resolution.</li>
+</ul>
+
+<p><img src="generating-web-with-ai/snappy.appypie.com_result.png" alt="snappy.appypie.com result.png" /></p>
+
+<h2 id="uizardio-"><a href="http://uizard.io/">Uizard.io</a> 👍</h2>
+
+<ul>
+  <li>First real generator (28 USD per month).</li>
+  <li>Takes a 300-character description prompt and 150-character design requirements.</li>
+  <li>Pros: generates several screens with components, creates a prototype with pages linked together. Users generative model to create images. The result is editable (Figma-like).</li>
+  <li>Cons: most of UX is hallucinations, none of it is actually usable as a finished product; components are recycled (across completely different prompts), does not adhere to constraints (i.e. design 2 pages). Can only be exported as PDF, PNG, and JPEG.</li>
+</ul>
+
+<p><img src="generating-web-with-ai/uizard-pharmacy-Landing-f4c78.png" alt="uizard-pharmacy-Landing-f4c78.png" /></p>
+
+<p><img src="generating-web-with-ai/uizard-pharmacy-SearchResults-ba8de.png" alt="uizard-pharmacy-SearchResults-ba8de.png" /></p>
+
+<p>⬇️ Result for prompt asking for completely something different, spot 10 similarities..</p>
+
+<p><img src="generating-web-with-ai/Landing-79686.png" alt="Landing-79686.png" /></p>
+
+<h2 id="durableco"><a href="http://durable.co/">Durable.co</a></h2>
+
+<ul>
+  <li>AI website builder with tons of other services (marketing, CRM, invoicing) placing it outside my use-case</li>
+  <li>Generates a site based on industry and name (can suggest one) - can be hacked by sending description prompt in the industry field.</li>
+  <li>No prompt customization.</li>
+  <li>Produces average quality visuals, but structure seems the same - hero, image, service cards, testimonial, gallery, contact info and form.</li>
+</ul>
+
+<p><img src="generating-web-with-ai/app.durable.co_result.png" alt="app.durable.co result.png" /></p>
+
+<h2 id="wixcom"><a href="http://wix.com/">Wix.com</a></h2>
+
+<ul>
+  <li>Claims “AI technology that creates a site for you.”</li>
+  <li>Could not find AI designer.</li>
+</ul>
+
+<h2 id="debuildapp">Debuild.app</h2>
+
+<ul>
+  <li>Joined waiting list.</li>
+</ul>
+
+<h2 id="10webio"><a href="http://10web.io/">10Web.io</a></h2>
+
+<ul>
+  <li>AI web design.</li>
+  <li>Input: describe business and 3 key services.</li>
+  <li>Generates OK design (responsive), but does not adhere to the prompt (no search input, etc.).</li>
+  <li>Seems more like the layout and structure is preconceived (home, service, about and contact pages) and AI only generates texts and images.</li>
+  <li>Output &gt; <a href="https://10web-site.ai/52/working-troll/">https://10web-site.ai/52/working-troll/</a></li>
+</ul>
+
+<p><img src="generating-web-with-ai/10web.io_result.png" alt="10web.io result.png" /></p>
+
+<h2 id="sketch2code-microsoft">Sketch2Code (Microsoft)</h2>
+
+<ul>
+  <li>Site not available <a href="https://sketch2code.azurewebsites.net/">https://sketch2code.azurewebsites.net/</a>.</li>
+</ul>
+
+<p>Overall, none of these tools can help me achieve my goal of designing a simple site based on my prompt.</p>
+
+<h1 id="chatgpt">ChatGPT</h1>
+
+<hr />
+
+<p>Approach</p>
+
+<ul>
+  <li>get GPT to generate code using Bootstrap</li>
+</ul>
+
+<p>The result is closer to what I need, but it obviously needs more work to be useful.</p>
+
+<p><img src="generating-web-with-ai/gpt-search.png" alt="gpt-search.png" /></p>
+
+<p><img src="generating-web-with-ai/gpt-detail.png" alt="gpt-detail.png" /></p>
+
+<h1 id="figma-plugin">Figma plugin</h1>
+
+<hr />
+
+<p>Using figma to code plugins, one can achieve interesting results. The downside is that you need the Figma design…</p>
+
+<p>Input:</p>
+
+<p><img src="generating-web-with-ai/Screenshot_2023-06-30_at_8.41.47.png" alt="Screenshot 2023-06-30 at 8.41.47.png" /></p>
+
+<p>Output:</p>
+
+<p><img src="generating-web-with-ai/Screenshot_2023-06-30_at_8.44.47.png" alt="Screenshot 2023-06-30 at 8.44.47.png" /></p>
+
+<h1 id="appendix">Appendix</h1>
+
+<hr />
+
+<h2 id="full-spec">Full spec</h2>
+
+<p><em>The MediSearch platform serves as a user-friendly medicine search engine that simplifies the process of finding pharmacies with specific medicines in stock. The website is theme is predominantly violet and features exquisite use of color gradients.</em></p>
+
+<p><em><strong>Homepage(Search and Result List):</strong> On the homepage, we offer users the ability to search for medicines based on their names. Typing in the search bar, results begin to appear in a list where each row distinctively displays a combination of the medicine name and form (e.g., Coldrex Sacks, Coldrex Tablets 50mg). A keen eye would notice an in-stock indicator icon next to each medicine to swiftly inform of its availability status. Results can be further honed based on users’ convenience as they have the option to sort these results by distance from their pre-estimated location.</em></p>
+
+<p><em><strong>Medicine Detail Page:</strong> Post choosing a medicine from the list, users are redirected to a medicine detail page containing an array of pharmacy cards. Each card leaves no stone unturned in providing all necessary information about a pharmacy – its name, address, phone number, and operation hours. Further, a compactly fitting map ensures users do not have to scour the internet for directions.</em></p>
+
+<p><em><strong>Email Subscription Page:</strong> In unfortunate circumstances where a user’s required medicine is out of stock in all pharmacies, we offer a silver lining - an option to subscribe for email notifications about the medicine’s availability status.</em></p>
+
+<h2 id="gpt-prompt">GPT prompt</h2>
+
+<p>You are a web developer with design capabilities. You will take a description (see below), enhance it by inserting details written in between the lines and based on the enhanced description build the html code split to individual pages.</p>
+
+<p>Website description:</p>
+
+<p>Design requirements:</p>
+
+<p>Here are a few rules to observe:</p>
+
+<ul>
+  <li>output complete HTML using Slim lang syntax</li>
+  <li>use Bootstrap as the CSS framework, its components and utility classes</li>
+  <li>make sure you properly place elements (by adding padding / margin as necessary)</li>
+  <li>when relevant use icons (for example state indicators, input field icons (email, phone, location, etc.)</li>
+  <li>use (but don’t overuse) primary color for main actions and secondary color for other actions</li>
+  <li>when designing sub-pages, include bread crumbs</li>
+  <li>include aria roles and attributes for accessibility</li>
+</ul>
+
+<h2 id="uizardio-prompt"><a href="http://uizard.io">uizard.io</a> prompt</h2>
+
+<p>Search engine simplifying the process of finding pharmacies with specific medicines. Page 1: Search by medicine name and view results with in-stock indicators. Sort results by distance. Page 2: Medicine detail showing which pharmacies have it in stock, with info about each pharmacy (address, opening hours.)</p>
+
+<p><em>There was another one I was trying but was lost in time..</em></p>
+
+  </div><a class="u-url" href="/cs/2023/06/29/generating-web-with-ai-state-of-the-art.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://landovsky.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>My personal blog to write about things I&#39;m interested in.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

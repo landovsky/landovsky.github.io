@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Generating web with AI - state of the art?"
-date:   2023-06-30 21:15:34 +0100
-categories: en
+date:   2023-06-29 21:15:34 +0100
+categories: cs
 ---
 
 # Generating web with AI
