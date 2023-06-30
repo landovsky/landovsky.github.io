@@ -5,8 +5,6 @@ date:   2023-06-29 21:15:34 +0100
 categories: en
 ---
 
-# Generating web with AI
-
 # Objectives
 
 ---
